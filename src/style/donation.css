@@ -1,0 +1,104 @@
+.navbar .color-b{
+color: #000;
+} 
+nav .container {
+border: none;
+}
+body{
+background: center;
+background-image: url('../img/gallery/kittens2.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment:fixed;
+}
+.hold h3{
+text-align: center;
+font-size: 1.5em;
+color: #10a2ca;
+}
+.hold{
+position: absolute;
+left: 50%;
+top: 50%;
+margin: 0 auto;
+transform: translate(-50%,-50%);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+padding-bottom: 60px;
+margin-top: 30px;
+}
+.hold *{
+outline: none;
+border: none;
+text-decoration: none;
+text-transform:lowercase;
+padding: 0;
+margin: 0;
+}
+.hold form{
+background-color: rgba(255, 255, 255, 0.7);
+border-radius: 5px;
+box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+padding: 20px;
+width: 600px;
+}
+.hold form .inputvalue{
+margin-top: 20px;
+}
+.hold form .inputvalue span{
+display: block;
+color:#333;
+padding-bottom: 5px;
+}
+.hold form .inputvalue input,.hold form .inputvalue select{
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+border: 1px solid rgba(0,0,0,0.3);
+color: #444;
+}
+.hold form .flexbox{
+display:flex;
+gap: 15px;
+}
+.hold form .flexbox .inputvalue{
+flex: 1 1 150px ;
+}
+.hold form .submit-btn{
+width: 100%;
+background: linear-gradient(45deg,gold,#19c8fa);
+margin-top: 20px;
+padding: 10px;
+font-size: 20px;
+color: #fff;
+cursor: pointer;
+transition: 1s linear;
+border-radius: 10px;
+}
+.hold form .submit-btn:hover{
+letter-spacing: 1px;
+transition: 1s linear;
+background: linear-gradient(45deg,#19c8fa,gold);
+
+}
+footer{
+position: absolute;
+bottom: -30%;
+}
+@media (max-width:630px) {
+    .hold{
+    max-width: 100%;
+    margin-top: 100px;
+    }
+    footer{
+    bottom: -60%;
+    }
+    .hold form{
+    max-width: 80%;
+    }
+    .flexbox{
+    flex-wrap: wrap;
+    }
+}

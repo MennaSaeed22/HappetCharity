@@ -1,0 +1,31 @@
+.navbar .color-b{
+color: #000;
+} 
+nav .container {
+border: none;
+}
+body{
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-image: url('../img/gallery/R.jpeg');
+}
+.new-account ,.new-account a{
+text-transform: capitalize;
+text-align: center;
+margin-top: 10px;
+}
+.new-account{
+color: deeppink;
+}
+.new-account a{
+color: #10a2ca;
+font-weight: 600;
+}
+.inputvalue p{
+text-transform: capitalize;
+color: rgb(210, 5, 5);
+font-size: 1em;
+font-weight: 600;
+text-align: center;
+}
